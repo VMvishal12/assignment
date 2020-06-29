@@ -19,6 +19,6 @@ return(inv)
 }
 mat <- x$get()
 inv <- solve(mat, ...)
-x$setinverse(inv)
+x$setinverse(inv) 
 inv
 }
